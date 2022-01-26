@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|Back|Page</title>
+</head>
+<body>
+    <div>
+    <!-- table  -->
+    <center> <h2><table bgcolor="gray" >
+        <th>
+            <td>|Step 1: Account|</td>
+            <td>Step 2: Personal Details|</td>
+            <td>Step 3: Your Review</td>
+        </th>
+    </table> </h2> </center>
+</div>
+<div>
+
+    <fieldset> 
+<legend>Your Review:</legend>
+<form action="./thankyou.html">
+<table>
+<tr>
+    <td>How did you hear about us?</td>
+    <td>
+        <select name="How did you hear about us?" >  
+            <option value="#" disable selected >Select your option</option>
+            <option value="Facebook">Facebook</option>
+            <option value="linkedin">linkedin</option>
+            <option value="NewsPaper">NewsPaper</option>
+            </select>
+    </td>
+</tr>
+</table>
+<br />
+
+<label for="Would you visit again?">
+Would you visit again?
+<input type="radio" value="Yes" name="Would you visit again?">
+Yes
+<input type="radio" value="No" name="Would you visit again?">
+No
+<input type="radio" value="Maybe" name="Would you visit again?">
+Maybe
+</label>
+
+<p>Comments:</p>
+<textarea name="Enter your comments here" cols="40" rows="5" required maxlength="20">Enter your comments here...</textarea>
+<br /><br />
+Documents: 
+<input type="file" required name="file" required >
+<br /><br />
+<input type="checkbox" checked name="signme" id="Sign me up for email updates">
+Sign me up for email updates
+<br /> <br />
+<button> <a href="./submit.html"> <img src="./images/back.png" width="120" ></a> </button>
+<button value="submit" > <a href="./thankyou.html"> <img src="./images/submit.png" width="120" > </a> </button>
+</form>
+</fieldset>
+</div>
+   
